@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="225fe14a-02b4-4f51-8744-a593e4c2eb91" name="Default Changelist" comment="" />
+    <list default="true" id="225fe14a-02b4-4f51-8744-a593e4c2eb91" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +23,12 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -31,6 +38,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -46,6 +56,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -144,7 +155,7 @@
     <option name="projectSyncType">
       <map>
         <entry key="$USER_HOME$/Desktop/SahajStuff/LUModel_InitialStage" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../magellan-24e70be84100389b029c4bb627ee84becdf071e8" value="PREVIEW" />
+        <entry key="$USER_HOME$/magellan-24e70be84100389b029c4bb627ee84becdf071e8" value="PREVIEW" />
       </map>
     </option>
   </component>
@@ -218,10 +229,10 @@
     <state width="1868" height="218" key="GridCell.Tab.0.right/0.23.1680.969/1680.0.1920.1080@1680.0.1920.1080" timestamp="1614149043741" />
     <state width="1188" height="226" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1613993484692" />
     <state width="1868" height="289" key="GridCell.Tab.0.right/1680.101.1920.1080/0.0.1680.1050@1680.101.1920.1080" timestamp="1614253057234" />
-    <state x="1693" y="39" key="SettingsEditor" timestamp="1614320179629">
+    <state x="1693" y="39" key="SettingsEditor" timestamp="1614322188325">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state x="1693" y="39" key="SettingsEditor/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1614320179629" />
+    <state x="1693" y="39" key="SettingsEditor/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1614322188325" />
     <state x="463" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1611710697211">
       <screen x="0" y="23" width="1680" height="969" />
     </state>
