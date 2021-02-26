@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="225fe14a-02b4-4f51-8744-a593e4c2eb91" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1kdcCjYMvvAJIiS69FXHoBmsw0L" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gurukul.tigercard" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gurukul.tigercard.Main" />
+      <module name="TigerCardTDD.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gurukul.tigercard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CappingTest.getMaxDailyFareTest1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.gurukul.tigercard.CappingTest.getMaxDailyFareTest1&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CappingTest.itShouldReturn500AsMaxWeeklyCap" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.gurukul.tigercard.CappingTest.itShouldReturn500AsMaxWeeklyCap&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Scratch (1)" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gurukul.tigercard.Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gurukul.tigercard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Java Scratch.Scratch" />
+        <item itemvalue="Java Scratch.Scratch (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.CappingTest.itShouldReturn500AsMaxWeeklyCap" />
+        <item itemvalue="Gradle.CappingTest.getMaxDailyFareTest1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Desktop/SahajStuff/LUModel_InitialStage" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../magellan-24e70be84100389b029c4bb627ee84becdf071e8" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="225fe14a-02b4-4f51-8744-a593e4c2eb91" name="Default Changelist" comment="" />
+      <created>1606033783466</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606033783466</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2140" y="124" key="#Project_Structure" timestamp="1613730409634">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2140" y="124" key="#Project_Structure/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1613730409634" />
+    <state x="590" y="370" width="499" height="322" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1614100558572">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="590" y="370" width="499" height="322" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1680.1050@0.0.1680.1050" timestamp="1614100558572" />
+    <state x="515" y="223" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606034204452">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="515" y="223" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606034204452" />
+    <state width="1868" height="289" key="GridCell.Tab.0.bottom" timestamp="1614253057235">
+      <screen x="1680" y="101" width="1920" height="1080" />
+    </state>
+    <state width="1868" height="467" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1614150520500" />
+    <state width="1628" height="161" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1614173462458" />
+    <state width="1868" height="218" key="GridCell.Tab.0.bottom/0.23.1680.969/1680.0.1920.1080@1680.0.1920.1080" timestamp="1614149043742" />
+    <state width="1188" height="226" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1613993484693" />
+    <state width="1868" height="289" key="GridCell.Tab.0.bottom/1680.101.1920.1080/0.0.1680.1050@1680.101.1920.1080" timestamp="1614253057235" />
+    <state width="1868" height="289" key="GridCell.Tab.0.center" timestamp="1614253057232">
+      <screen x="1680" y="101" width="1920" height="1080" />
+    </state>
+    <state width="1868" height="467" key="GridCell.Tab.0.center/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1614150520499" />
+    <state width="1628" height="161" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1614173462457" />
+    <state width="1868" height="218" key="GridCell.Tab.0.center/0.23.1680.969/1680.0.1920.1080@1680.0.1920.1080" timestamp="1614149043741" />
+    <state width="1188" height="226" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1613993484691" />
+    <state width="1868" height="289" key="GridCell.Tab.0.center/1680.101.1920.1080/0.0.1680.1050@1680.101.1920.1080" timestamp="1614253057232" />
+    <state width="1868" height="289" key="GridCell.Tab.0.left" timestamp="1614253057231">
+      <screen x="1680" y="101" width="1920" height="1080" />
+    </state>
+    <state width="1868" height="467" key="GridCell.Tab.0.left/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1614150520499" />
+    <state width="1628" height="161" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1614173462456" />
+    <state width="1868" height="218" key="GridCell.Tab.0.left/0.23.1680.969/1680.0.1920.1080@1680.0.1920.1080" timestamp="1614149043740" />
+    <state width="1188" height="226" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1613993484690" />
+    <state width="1868" height="289" key="GridCell.Tab.0.left/1680.101.1920.1080/0.0.1680.1050@1680.101.1920.1080" timestamp="1614253057231" />
+    <state width="1868" height="289" key="GridCell.Tab.0.right" timestamp="1614253057234">
+      <screen x="1680" y="101" width="1920" height="1080" />
+    </state>
+    <state width="1868" height="467" key="GridCell.Tab.0.right/0.0.1680.1050/1680.0.1920.1080@1680.0.1920.1080" timestamp="1614150520500" />
+    <state width="1628" height="161" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1614173462457" />
+    <state width="1868" height="218" key="GridCell.Tab.0.right/0.23.1680.969/1680.0.1920.1080@1680.0.1920.1080" timestamp="1614149043741" />
+    <state width="1188" height="226" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1613993484692" />
+    <state width="1868" height="289" key="GridCell.Tab.0.right/1680.101.1920.1080/0.0.1680.1050@1680.101.1920.1080" timestamp="1614253057234" />
+    <state x="1693" y="39" key="SettingsEditor" timestamp="1614320179629">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1693" y="39" key="SettingsEditor/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1614320179629" />
+    <state x="463" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1611710697211">
+      <screen x="0" y="23" width="1680" height="969" />
+    </state>
+    <state x="463" y="301" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606042388460" />
+    <state x="463" y="301" key="com.intellij.ide.util.TipDialog/1680.124.1920.1057/0.23.1680.969@0.23.1680.969" timestamp="1611710697211" />
+    <state x="39" y="53" key="new project wizard" timestamp="1606158008302">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="39" y="53" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1606158008302" />
+    <state x="2221" y="252" key="run.anything.popup" timestamp="1614320144816">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2221" y="252" key="run.anything.popup/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1614320144816" />
+    <state x="2161" y="19" width="958" height="1062" key="search.everywhere.popup" timestamp="1613989152180">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606074539007" />
+    <state x="2161" y="19" width="958" height="1062" key="search.everywhere.popup/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1613989152180" />
+  </component>
+</project>
