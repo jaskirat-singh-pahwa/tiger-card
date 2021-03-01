@@ -21,9 +21,9 @@ public class Main {
         journeys.add(new Journey(DayOfWeek.TUESDAY, LocalTime.parse("20:22"), Zone.Zone2, Zone.Zone2));
         journeys.add(new Journey(DayOfWeek.WEDNESDAY, LocalTime.parse("20:22"), Zone.Zone2, Zone.Zone2));
 
-        Driver driver = new Driver(journeys);
-
-        driver.runDriver();
-
+//        Driver driver = new Driver(journeys);
+//        driver.runDriver();
+        FareCalculator fareCalculator = new FareCalculator(journeys);
+        fareCalculator.getCalculatedFare();
     }
 }
