@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
 
 public class CappingTest {
     @Test
-    public void itShouldReturnDailyCap100_WhenFromZoneOneAndToZoneOne() {
+    public void itShouldReturnDailyCap100WhenFromZoneOneAndToZoneOne() {
         Capping capping = new Capping();
 
         assertEquals(capping.getDailyCap(Zone.Zone1, Zone.Zone1), 100);
@@ -19,7 +19,7 @@ public class CappingTest {
     }
 
     @Test
-    public void itShouldReturnDailyCap80_WhenFromZoneTwoAndToZoneTwo() {
+    public void itShouldReturnDailyCap80WhenFromZoneTwoAndToZoneTwo() {
         Capping capping = new Capping();
 
         assertEquals(capping.getDailyCap(Zone.Zone2, Zone.Zone2), 80);
@@ -27,7 +27,7 @@ public class CappingTest {
     }
 
     @Test
-    public void itShouldReturnDailyCap120_WhenFromZoneOneAndToZoneTwo() {
+    public void itShouldReturnDailyCap120WhenFromZoneOneAndToZoneTwo() {
         Capping capping = new Capping();
 
         assertEquals(capping.getDailyCap(Zone.Zone1, Zone.Zone2), 120);
@@ -35,7 +35,7 @@ public class CappingTest {
     }
 
     @Test
-    public void itShouldReturnDailyCap120_WhenFromZoneTwoAndToZoneOne() {
+    public void itShouldReturnDailyCap120WhenFromZoneTwoAndToZoneOne() {
         Capping capping = new Capping();
 
         assertEquals(capping.getDailyCap(Zone.Zone2, Zone.Zone1), 120);
@@ -43,7 +43,7 @@ public class CappingTest {
     }
 
     @Test
-    public void itShouldReturnWeeklyCap100_WhenFromZoneOneAndToZoneOne() {
+    public void itShouldReturnWeeklyCap100WhenFromZoneOneAndToZoneOne() {
         Capping capping = new Capping();
 
         assertEquals(capping.getWeeklyCap(Zone.Zone1, Zone.Zone1), 500);
@@ -51,7 +51,7 @@ public class CappingTest {
     }
 
     @Test
-    public void itShouldReturnWeeklyCap80_WhenFromZoneTwoAndToZoneTwo() {
+    public void itShouldReturnWeeklyCap80WhenFromZoneTwoAndToZoneTwo() {
         Capping capping = new Capping();
 
         assertEquals(capping.getWeeklyCap(Zone.Zone2, Zone.Zone2), 400);
@@ -59,7 +59,7 @@ public class CappingTest {
     }
 
     @Test
-    public void itShouldReturnWeeklyCap120_WhenFromZoneOneAndToZoneTwo() {
+    public void itShouldReturnWeeklyCap120WhenFromZoneOneAndToZoneTwo() {
         Capping capping = new Capping();
 
         assertEquals(capping.getWeeklyCap(Zone.Zone1, Zone.Zone2), 600);
@@ -67,7 +67,7 @@ public class CappingTest {
     }
 
     @Test
-    public void itShouldReturnWeeklyCap120_WhenFromZoneTwoAndToZoneOne() {
+    public void itShouldReturnWeeklyCap120WhenFromZoneTwoAndToZoneOne() {
         Capping capping = new Capping();
 
         assertEquals(capping.getWeeklyCap(Zone.Zone2, Zone.Zone1), 600);
@@ -90,7 +90,21 @@ public class CappingTest {
     }
 
     @Test
-    public void itShouldReturn500AsMaxWeeklyCap() {
+    public void itShouldReturn100AsMaxDailyCap() {
+        Capping capping = new Capping();
+        List<Journey> journeys = new ArrayList<>();
+        journeys.add(new Journey(DayOfWeek.MONDAY, LocalTime.parse("10:22"), Zone.Zone1, Zone.Zone1));
+        journeys.add(new Journey(DayOfWeek.MONDAY, LocalTime.parse("14:22"), Zone.Zone2, Zone.Zone2));
+        journeys.add(new Journey(DayOfWeek.MONDAY, LocalTime.parse("15:22"), Zone.Zone2, Zone.Zone2));
+        journeys.add(new Journey(DayOfWeek.MONDAY, LocalTime.parse("16:22"), Zone.Zone2, Zone.Zone2));
+        journeys.add(new Journey(DayOfWeek.MONDAY, LocalTime.parse("20:22"), Zone.Zone2, Zone.Zone2));
+
+        int maxDailyCap = capping.getMaximumDailyCap(journeys);
+
+        assertEquals(maxDailyCap, 100);
+    }
+    @Test
+    public void itShouldReturn600AsMaxWeeklyCap() {
         Capping capping = new Capping();
         List<Journey> journeys = new ArrayList<>();
         journeys.add(new Journey(DayOfWeek.MONDAY, LocalTime.parse("15:22"), Zone.Zone1, Zone.Zone1));
@@ -100,6 +114,19 @@ public class CappingTest {
         int maxWeeklyCap = capping.getMaximumWeeklyCap(journeys);
 
         assertEquals(maxWeeklyCap, 600);
+    }
+
+    @Test
+    public void itShouldReturn500AsMaxWeeklyCap() {
+        Capping capping = new Capping();
+        List<Journey> journeys = new ArrayList<>();
+        journeys.add(new Journey(DayOfWeek.MONDAY, LocalTime.parse("15:22"), Zone.Zone1, Zone.Zone1));
+        journeys.add(new Journey(DayOfWeek.MONDAY, LocalTime.parse("16:22"), Zone.Zone1, Zone.Zone1));
+        journeys.add(new Journey(DayOfWeek.MONDAY, LocalTime.parse("20:22"), Zone.Zone2, Zone.Zone2));
+
+        int maxWeeklyCap = capping.getMaximumWeeklyCap(journeys);
+
+        assertEquals(maxWeeklyCap, 500);
     }
 
 }

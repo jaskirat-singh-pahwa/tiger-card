@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 
 public class FareTest {
     @Test
-    public void itShouldReturn30_WhenFromZoneIsOneToZoneIsOneAndPeakHour() {
+    public void itShouldReturn30WhenFromZoneIsOneToZoneIsOneAndPeakHour() {
         Fare fare = new Fare();
 
         assertEquals(fare.getFare(true, Zone.Zone1, Zone.Zone1), 30);
@@ -14,7 +14,7 @@ public class FareTest {
     }
 
     @Test
-    public void itShouldReturn25_WhenFromZoneIsOneToZoneIsOneAndOffPeakHour() {
+    public void itShouldReturn25WhenFromZoneIsOneToZoneIsOneAndOffPeakHour() {
         Fare fare = new Fare();
 
         assertEquals(fare.getFare(false, Zone.Zone1, Zone.Zone1), 25);
@@ -22,7 +22,7 @@ public class FareTest {
     }
 
     @Test
-    public void itShouldReturn25_WhenFromZoneIsTwoToZoneIsTwoAndPeakHour() {
+    public void itShouldReturn25WhenFromZoneIsTwoToZoneIsTwoAndPeakHour() {
         Fare fare = new Fare();
 
         assertEquals(fare.getFare(true, Zone.Zone2, Zone.Zone2), 25);
@@ -30,7 +30,7 @@ public class FareTest {
     }
 
     @Test
-    public void itShouldReturn20_WhenFromZoneIsTwoToZoneIsTwoAndOffPeakHour() {
+    public void itShouldReturn20WhenFromZoneIsTwoToZoneIsTwoAndOffPeakHour() {
         Fare fare = new Fare();
 
         assertEquals(fare.getFare(false, Zone.Zone2, Zone.Zone2), 20);
@@ -38,28 +38,28 @@ public class FareTest {
     }
 
     @Test
-    public void itShouldReturn35_WhenFromZoneIsOneToZoneIsTwoAndPeakHour() {
+    public void itShouldReturn35WhenFromZoneIsOneToZoneIsTwoAndPeakHour() {
         Fare fare = new Fare();
 
         assertEquals(fare.getFare(true, Zone.Zone1, Zone.Zone2), 35);
     }
 
     @Test
-    public void itShouldReturn30_WhenFromZoneIsOneToZoneIsTwoAndOffPeakHour() {
+    public void itShouldReturn30WhenFromZoneIsOneToZoneIsTwoAndOffPeakHour() {
         Fare fare = new Fare();
 
         assertEquals(fare.getFare(false, Zone.Zone1, Zone.Zone2), 30);
     }
 
     @Test
-    public void itShouldReturn35_WhenFromZoneIsTwoToZoneIsOneAndPeakHour() {
+    public void itShouldReturn35WhenFromZoneIsTwoToZoneIsOneAndPeakHour() {
         Fare fare = new Fare();
 
         assertEquals(fare.getFare(true, Zone.Zone2, Zone.Zone1), 35);
     }
 
     @Test
-    public void itShouldReturn30_WhenFromZoneIsTwoToZoneIsOneAndOffPeakHour() {
+    public void itShouldReturn30WhenFromZoneIsTwoToZoneIsOneAndOffPeakHour() {
         Fare fare = new Fare();
 
         assertEquals(fare.getFare(false, Zone.Zone2, Zone.Zone1), 30);

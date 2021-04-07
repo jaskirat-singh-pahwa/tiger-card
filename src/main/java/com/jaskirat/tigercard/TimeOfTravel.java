@@ -21,23 +21,23 @@ public class TimeOfTravel {
     }
 
     public static boolean isWeekdayMorningTimeFrame(LocalTime time) {
-        return time.isAfter(LocalTime.of(7,0))
-                && time.isBefore(LocalTime.of(10,30));
+        return time.isAfter(LocalTime.of(6,59))
+                && time.isBefore(LocalTime.of(10,31));
     }
 
     public static boolean isWeekdayEveningTimeFrame(LocalTime time) {
-        return time.isAfter(LocalTime.of(17,0))
-                && time.isBefore(LocalTime.of(20,0));
+        return time.isAfter(LocalTime.of(16,59))
+                && time.isBefore(LocalTime.of(20,01));
     }
 
     public static boolean isWeekendMorningTimeFrame(LocalTime time) {
-        return time.isAfter(LocalTime.of(9,0))
-                && time.isBefore(LocalTime.of(11,0));
+        return time.isAfter(LocalTime.of(8,59))
+                && time.isBefore(LocalTime.of(11,01));
     }
 
     public static boolean isWeekendEveningTimeFrame(LocalTime time) {
-        return time.isAfter(LocalTime.of(18,0))
-                && time.isBefore(LocalTime.of(22,0));
+        return time.isAfter(LocalTime.of(17,59))
+                && time.isBefore(LocalTime.of(22,01));
     }
 
     public boolean isPeakHourTravel() {

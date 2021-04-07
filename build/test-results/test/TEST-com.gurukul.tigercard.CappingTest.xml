@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.gurukul.tigercard.CappingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-22T11:31:25" hostname="Jaskirats-MacBook-Pro-2.local" time="0.017">
-  <properties/>
-  <testcase name="itShouldReturn500AsMaxWeeklyCap" classname="com.gurukul.tigercard.CappingTest" time="0.017"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
