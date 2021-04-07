@@ -29,15 +29,15 @@ public class Driver {
             }
 
             maxDailyCap = Math.max(maxDailyCap, currentDailyCap);
-            this.fareCalculator = new FareCalculator(journey);
-            int standardFare = this.fareCalculator.getStandardFare();
-            fareTillNow += standardFare;
-
-            int cappedFare = this.fareCalculator.getCappedFare(fareTillNow, maxDailyCap);
-
-            printDailyCap(currentDailyCap, maxDailyCap, standardFare, cappedFare);
-
-            previousDayOfWeek = journey.getDayOfWeek();
+            this.fareCalculator = new FareCalculator(this.journeys);
+//            int standardFare = this.fareCalculator.getStandardFare();
+//            fareTillNow += standardFare;
+//
+//            int cappedFare = this.fareCalculator.getCappedFare(fareTillNow, maxDailyCap);
+//
+//            printDailyCap(currentDailyCap, maxDailyCap, standardFare, cappedFare);
+//
+//            previousDayOfWeek = journey.getDayOfWeek();
         }
     }
 

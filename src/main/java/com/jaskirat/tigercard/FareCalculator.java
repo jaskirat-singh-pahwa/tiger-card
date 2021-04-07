@@ -22,6 +22,8 @@ public class FareCalculator {
 
    public void getCalculatedFare() {
        for (Journey journey : this.journeys) {
+           Calculator calculator = new Calculator(journey, previousDayOfWeek, fareTillNow);
+           calculator.calculateFare();
            DayOfWeek currentDayOfWeek = journey.getDayOfWeek();
            Zone fromZone = journey.getFromZone();
            Zone toZone = journey.getToZone();
