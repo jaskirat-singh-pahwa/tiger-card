@@ -18,12 +18,43 @@ public class Main {
         journeys.add(new Journey(DayOfWeek.MONDAY, LocalTime.parse("20:22"), Zone.Zone2, Zone.Zone2));
         journeys.add(new Journey(DayOfWeek.MONDAY, LocalTime.parse("07:01"), Zone.Zone2, Zone.Zone1));
 
+        journeys.add(new Journey(DayOfWeek.TUESDAY, LocalTime.parse("10:22"), Zone.Zone1, Zone.Zone2));
+        journeys.add(new Journey(DayOfWeek.TUESDAY, LocalTime.parse("14:22"), Zone.Zone2, Zone.Zone1));
+        journeys.add(new Journey(DayOfWeek.TUESDAY, LocalTime.parse("15:22"), Zone.Zone1, Zone.Zone1));
+        journeys.add(new Journey(DayOfWeek.TUESDAY, LocalTime.parse("16:22"), Zone.Zone1, Zone.Zone2));
         journeys.add(new Journey(DayOfWeek.TUESDAY, LocalTime.parse("20:22"), Zone.Zone2, Zone.Zone2));
+        journeys.add(new Journey(DayOfWeek.TUESDAY, LocalTime.parse("20:22"), Zone.Zone2, Zone.Zone2));
+
+        journeys.add(new Journey(DayOfWeek.WEDNESDAY, LocalTime.parse("10:22"), Zone.Zone1, Zone.Zone2));
+        journeys.add(new Journey(DayOfWeek.WEDNESDAY, LocalTime.parse("14:22"), Zone.Zone2, Zone.Zone1));
+        journeys.add(new Journey(DayOfWeek.WEDNESDAY, LocalTime.parse("15:22"), Zone.Zone1, Zone.Zone1));
+        journeys.add(new Journey(DayOfWeek.WEDNESDAY, LocalTime.parse("16:22"), Zone.Zone1, Zone.Zone2));
+        journeys.add(new Journey(DayOfWeek.WEDNESDAY, LocalTime.parse("20:22"), Zone.Zone2, Zone.Zone2));
         journeys.add(new Journey(DayOfWeek.WEDNESDAY, LocalTime.parse("20:22"), Zone.Zone2, Zone.Zone2));
 
-//        Driver driver = new Driver(journeys);
-//        driver.runDriver();
+        journeys.add(new Journey(DayOfWeek.FRIDAY, LocalTime.parse("10:22"), Zone.Zone1, Zone.Zone2));
+        journeys.add(new Journey(DayOfWeek.FRIDAY, LocalTime.parse("14:22"), Zone.Zone2, Zone.Zone1));
+        journeys.add(new Journey(DayOfWeek.FRIDAY, LocalTime.parse("15:22"), Zone.Zone1, Zone.Zone1));
+        journeys.add(new Journey(DayOfWeek.FRIDAY, LocalTime.parse("16:22"), Zone.Zone1, Zone.Zone2));
+        journeys.add(new Journey(DayOfWeek.FRIDAY, LocalTime.parse("20:22"), Zone.Zone2, Zone.Zone2));
+        journeys.add(new Journey(DayOfWeek.FRIDAY, LocalTime.parse("20:22"), Zone.Zone2, Zone.Zone2));
+
+        journeys.add(new Journey(DayOfWeek.SATURDAY, LocalTime.parse("10:22"), Zone.Zone1, Zone.Zone2));
+        journeys.add(new Journey(DayOfWeek.SATURDAY, LocalTime.parse("14:22"), Zone.Zone2, Zone.Zone1));
+        journeys.add(new Journey(DayOfWeek.SATURDAY, LocalTime.parse("15:22"), Zone.Zone1, Zone.Zone1));
+        journeys.add(new Journey(DayOfWeek.SATURDAY, LocalTime.parse("16:22"), Zone.Zone1, Zone.Zone2));
+        journeys.add(new Journey(DayOfWeek.SATURDAY, LocalTime.parse("20:22"), Zone.Zone2, Zone.Zone2));
+        journeys.add(new Journey(DayOfWeek.SATURDAY, LocalTime.parse("20:22"), Zone.Zone2, Zone.Zone2));
+
+        journeys.add(new Journey(DayOfWeek.SUNDAY, LocalTime.parse("10:22"), Zone.Zone1, Zone.Zone2));
+        journeys.add(new Journey(DayOfWeek.SUNDAY, LocalTime.parse("14:22"), Zone.Zone2, Zone.Zone1));
+        journeys.add(new Journey(DayOfWeek.SUNDAY, LocalTime.parse("15:22"), Zone.Zone1, Zone.Zone1));
+        journeys.add(new Journey(DayOfWeek.SUNDAY, LocalTime.parse("16:22"), Zone.Zone1, Zone.Zone2));
+        journeys.add(new Journey(DayOfWeek.SUNDAY, LocalTime.parse("20:22"), Zone.Zone2, Zone.Zone2));
+        journeys.add(new Journey(DayOfWeek.SUNDAY, LocalTime.parse("20:22"), Zone.Zone2, Zone.Zone2));
+
+
         FareCalculator fareCalculator = new FareCalculator(journeys);
-        fareCalculator.getCalculatedFare();
+        System.out.println(String.format("Amount to be paid for this week is: %d", fareCalculator.getCalculatedFare()));
     }
 }
