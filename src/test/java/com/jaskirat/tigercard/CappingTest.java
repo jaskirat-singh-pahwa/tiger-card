@@ -1,4 +1,4 @@
-package tigercard;
+package com.jaskirat.tigercard;
 
 import com.jaskirat.tigercard.Capping;
 import com.jaskirat.tigercard.Journey;

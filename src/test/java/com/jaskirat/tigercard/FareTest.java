@@ -1,4 +1,4 @@
-package tigercard;
+package com.jaskirat.tigercard;
 
 import com.jaskirat.tigercard.Fare;
 import com.jaskirat.tigercard.Zone;

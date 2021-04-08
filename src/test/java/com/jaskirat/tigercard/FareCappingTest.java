@@ -1,4 +1,4 @@
-package tigercard;
+package com.jaskirat.tigercard;
 
 public class FareCappingTest {
 //    @Test
