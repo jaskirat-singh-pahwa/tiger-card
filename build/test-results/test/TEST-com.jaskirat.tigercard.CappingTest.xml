@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.jaskirat.tigercard.CappingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-07T08:02:50" hostname="Jaskirats-MacBook-Pro.local" time="0.012">
-  <properties/>
-  <testcase name="itShouldReturn100AsMaxDailyCap" classname="com.jaskirat.tigercard.CappingTest" time="0.012"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
