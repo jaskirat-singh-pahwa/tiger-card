@@ -1,4 +1,9 @@
 # TigerCard
+
+## Implemented the solution in two ways:
+### One using Java classes (target: design a software)
+### Second method is Apache spark: implemented in Scala (target: this problem can also be solved by big data tools like spark or pandas etc.)
+
 ### Problem Statement
 
 The transport officials from the city of Nepu want to design a payment system for public metro transport. They have come up with the idea of a prepaid card - TigerCard - which is an NFC enabled card that is to be tapped at entry and exit points of the metro stations.
