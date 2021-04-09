@@ -2,7 +2,7 @@
 
 ## Implemented the solution in two ways:
 ### 1.) Java classes (target: design a software)
-### 2.) Apache spark: implemented in Scala (target: this problem can also be solved by big data tools like spark or pandas etc.)
+### 2.) Apache spark: implemented in Scala (target: this problem can also be solved by big data tools like spark, pandas etc.)
 
 ### Problem Statement
 
